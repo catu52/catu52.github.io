@@ -1,25 +1,18 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+
+title:  "Welcome to my site!"
 date:   2017-06-29 16:17:47 -0300
-categories: jekyll update
+categories: update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Prueba de *markdown*
 
-Jekyll also offers powerful support for code snippets:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quam est, malesuada finibus pretium sit amet, viverra sed odio. Suspendisse pellentesque rhoncus turpis, a rutrum elit fermentum a. Vestibulum augue enim, eleifend nec sem nec, aliquam euismod leo. Nulla a tincidunt dui. Etiam quis ex augue. Praesent posuere dui ac nisi sodales, nec feugiat orci congue. Duis ut tellus vitae nibh pretium venenatis eu vel turpis. Cras mattis libero erat, eget vestibulum leo ultricies vel. Praesent in dignissim velit, in lobortis augue. Donec quis interdum lorem, vitae ornare ante. Aenean pretium sit amet purus sit amet ultricies. Etiam ut facilisis augue, sed dignissim urna. Pellentesque auctor leo quis ipsum fringilla porttitor. Sed scelerisque pulvinar sollicitudin.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Proin nec risus tempus, pharetra ex a, sodales lacus. Suspendisse faucibus tortor sit amet risus ultricies mollis. Phasellus at mauris fringilla, varius felis et, pretium lacus. Suspendisse sed magna orci. Integer facilisis nulla varius nibh viverra, a aliquam risus euismod. Aliquam erat volutpat. Pellentesque non ante facilisis, laoreet nulla id, sagittis felis. Praesent libero quam, faucibus sollicitudin rutrum in, malesuada sed orci. Nam venenatis nisi viverra, porttitor felis vel, viverra risus. Duis nibh metus, convallis quis cursus ut, venenatis nec mi. Praesent nisl est, iaculis vitae vulputate non, feugiat in ex. Nulla dui nisl, viverra eget imperdiet vel, hendrerit et ante. Pellentesque iaculis egestas dolor nec gravida. Donec auctor mauris id lorem ultrices, sed imperdiet nibh condimentum. Sed vel aliquet lectus, sed auctor ante. Sed porttitor turpis at ultricies vulputate.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+In non ullamcorper nisi. Suspendisse sodales scelerisque tellus, et vulputate enim lobortis at. Suspendisse potenti. Aenean eget neque ac mauris dapibus tempor vel in risus. Ut eleifend, massa at venenatis elementum, ante est euismod nisl, sit amet semper orci nisi nec est. Vivamus nulla lacus, sollicitudin et diam ut, malesuada lobortis risus. Phasellus aliquam non eros sed auctor. Proin placerat aliquam viverra. Nullam mollis dui nulla, quis eleifend ex eleifend ac. Mauris luctus orci sed odio ultricies, at aliquam nunc iaculis. Aenean sed aliquet quam. Donec a convallis justo, eget interdum mi. Nulla risus mi, laoreet id blandit vitae, tristique at urna.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Pellentesque id elit posuere, condimentum mauris eget, dictum turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur varius, massa et sagittis facilisis, nibh ante laoreet nunc, in ultrices nibh justo non nulla. Nulla molestie porttitor finibus. Quisque nisl magna, consequat sit amet scelerisque id, pretium suscipit nunc. Quisque suscipit iaculis nulla, nec accumsan sapien faucibus sed. Curabitur nec sapien ut orci consequat eleifend. Nam et mi pulvinar, luctus diam a, tincidunt quam. Fusce scelerisque commodo quam vitae posuere. Fusce porta semper ex, quis laoreet felis tristique vel.
+
+Sed leo dui, tristique a arcu a, porta vestibulum lacus. Maecenas ac dapibus felis. Vivamus metus quam, scelerisque et justo et, pretium varius odio. Morbi cursus lobortis diam, eget porttitor turpis. Vestibulum sodales felis ut nulla posuere, vel venenatis arcu volutpat. In a commodo risus, nec gravida massa. Aliquam pulvinar massa vel suscipit efficitur. Mauris luctus ante leo, vitae cursus velit auctor non. Maecenas egestas risus eu ultrices imperdiet. Nulla dignissim tempus semper. Aenean semper semper metus, eu dictum orci malesuada a. Fusce ipsum arcu, rutrum non nulla quis, dignissim molestie sapien. Praesent aliquet eros ac quam vehicula, sed cursus felis tincidunt. Ut sapien dui, accumsan sit amet varius non, consequat nec risus. Aliquam maximus leo vitae orci finibus, at facilisis odio vestibulum. Pellentesque vulputate massa nec dignissim posuere.
