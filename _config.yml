@@ -10,7 +10,7 @@ author:
   url:        http://yourhomepage.com 
 
 # Gems
-gems:
+plugins:
   - jekyll-paginate
 
 #Others
