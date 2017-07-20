@@ -1,8 +1,31 @@
+{% assign username = "catu52" %}
 <section class="page-header">
-  <h1 class="project-name">{{ site.title }}</h1>
-  <h2 class="project-tagline">{{ site.tagline }}</h2>
 
-  <div class="avatar-container">
+	<h1 class="project-name">{{ site.title }}</h1>
+	<h2 class="project-tagline">{{ site.tagline }}</h2>
+
+	<div class="avatar-container">
 	  <img class="img-circle" width="256" src="https://lh3.googleusercontent.com/4qsqwoAGSCIbeFuXI5ZctuSlqbTqrKFwseU_sj0TGYzQix3tClth9tfUJJbI26AYnAA8ATIj6_Ku2g=w1680-h1050-rw-no">
-  </div>
+	</div>
+
+	<h2 class="project-quote">{{ site.quote }}</h2>
+
+	<br>
+	
+	<a href="mailto:catu52@gmail.com" class="btn">
+		Get in touch
+	</a>
+	
+	<div class="container-fluid">
+
+		<!-- Twitter -->
+		{% include icon-twitter.html %}
+
+		<!-- Github -->
+		{% include icon-github.html %}
+
+		<!-- Instagram -->
+		{% include icon-instagram.html %}
+
+	</div>
 </section>
