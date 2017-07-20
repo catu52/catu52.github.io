@@ -9,8 +9,12 @@ layout: default
   {{ content }}
 
 
-  {% for post in site.posts %}
-    {{ post }}
-  {% endfor %}  
+  <div class="container-fluid">
+	  {% for post in site.posts %}
+	  	<div class="row">
+	    	{{ post }}
+	    </div>
+	  {% endfor %}
+  </div>  
 
 </div>

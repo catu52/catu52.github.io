@@ -1,12 +1,12 @@
 # Setup
-title:        Project or Site name
-tagline:      A responsive theme for your project on GitHub Pages
+title:        Carlos Samaniego
+tagline:      Just a site
 baseurl:      ""
 paginate:     1
 
 # About/contact
 author:
-  name:       Author name
+  name:       Carlos Samaniego
   url:        http://yourhomepage.com 
 
 # Gems
