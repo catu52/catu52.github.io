@@ -3,65 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name's MacProfile</title>
+    <title>[Your Name]'s Profile Mac 1984</title>
+    
     <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
+
     <style>
-        /* Optional: Add custom CSS for background, etc. */
+        /* Custom CSS to set the classic Mac desktop background and center the main window */
         body {
-            background-color: #C0C0C0; /* Classic light gray desktop color */
+            background-color: #C0C0C0; /* Standard Mac desktop gray */
+            font-family: 'Chicago', sans-serif; /* Fallback for a thick, classic font */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
             padding: 20px;
+        }
+
+        /* Ensure the main window stands out */
+        .window {
+            min-width: 400px;
+            max-width: 800px;
+            width: 90%;
+            box-shadow: 4px 4px black; /* Gives a nice shadow depth effect */
+        }
+        
+        /* Optional: Style the text within the window */
+        .window-pane p, .window-pane li {
+            line-height: 1.5;
+            margin-bottom: 10px;
         }
     </style>
 </head>
-  <body>
-    <div style="margin-left:auto;margin-right:auto;max-width:960px">
-      <div class="window" style="max-width:600px;margin:1rem auto">
+<body>
+
+    <div class="window" id="profile-window">
         <div class="title-bar">
-          <div class="title-bar-controls">
-            <button aria-label="Close"></button>
+            <div class="title-bar-controls">
+                <button aria-label="Close"></button>
+            </div>
+            <div class="title">My_Profile.doc</div>
+        </div>
+
+        <div class="window-pane">
+          <div class="standard-dialog" style="max-width:80px;float:right">
+            <img src="computer.png" style="width:100%; max-width:100px; display:block; margin:auto" alt="Vintage Computer">
           </div>
-          <h1 class="title">About Me.txt</h1>
-        </div>
-        <div class="window-pane">
-          <img src="computer.jpg" alt="Avatar" style="width:150px;height:150px;float:right">
-          <h1>Hello, I'm **[Your Name]**</h1>
-          <p>I am a software developer interested in [Your Specialty].</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ullamcorper gravida lacus, eget pulvinar justo efficitur aliquet. Fusce vitae convallis neque. Nullam feugiat nunc quis augue laoreet sagittis.
-          </p>
-          <button class="btn btn-default">My GitHub</button>
-        </div>
-      </div>
 
-      <div class="window" style="max-width:600px;margin:1rem auto">
-        <div class="title-bar">
-          <h1 class="title">Skills</h1>
-        </div>
-        <div class="window-pane">
-          <ul>
-            <li>Programming Languages: JavaScript, Python, C++</li>
-            <li>Frameworks: React, Node.js, Django</li>
-            <li>Tools: Git, Docker, AWS</li>
-          </ul>
-        </div>
-      </div>
+            <h1 style="border-bottom: 2px solid black; padding-bottom: 5px;">
+                **[Your Full Name]** 👨‍💻
+            </h1>
 
-      <div class="window" style="max-width:600px;margin:1rem auto">
-        <div class="title-bar">
-          <h1 class="title">Experience</h1>
-        </div>
-        <div class="window-pane">
-          <ul>
-            <li>Software Engineer at Company A (2020 - Present)</li>
-            <li>Intern at Company B (2019 - 2020)</li>
-         </ul>
-        </div>
-      </div>
+            <p>
+                **Role/Title:** Backend developer<br>
+                **Location:** Buenos Aires, Argentina<br>
+            </p>
 
-      <div class="standard-dialog center scale-down" style="max-width:500px;margin:1rem auto">
-       <h1 class="dialog-text">The Macintosh Finder, Version 1.0 (18 Jan 84)</h1>
-        <p class="dialog-text">&copy; 1984 Apple Computer</p>
-      </div>
+            <hr>
+
+            <fieldset>
+                <legend>About_Me</legend>
+                <p>
+                    Greetings! I am focused on [Primary Technology/Interest, e.g., Python and Data Science]. 
+                    I love exploring vintage computing and building things that look like they belong in the 80s. 
+                    This profile site is built with **GitHub Pages** and **System.css**.
+                </p>
+            </fieldset>
+
+            <h2><img src="folder.png" style="max-width:60px"> My Projects</h2>
+            <ul class="tree-view">
+                <li>
+                    **[Project 1 Name]** (<a href="[Project 1 URL]" target="_blank">View</a>): 
+                    [Short description of Project 1]
+                </li>
+                <li>
+                    **[Project 2 Name]** (<a href="[Project 2 URL]" target="_blank">View</a>): 
+                    [Short description of Project 2]
+                </li>
+                <li>
+                    **Skills:** HTML, CSS, JavaScript, Python, [Other Skills]
+                </li>
+            </ul>
+
+            <hr>
+
+            <h2><img src="package.png" style="max-width:60px"> Contact</h2>
+            <a href="[Your GitHub URL]" target="_blank">
+                <button class="btn btn-default">GitHub Repository</button>
+            </a>
+            <a href="mailto:[Your Email]">
+                <button class="btn">Send Mail</button>
+            </a>
+        </div>
     </div>
-  </body>
+
+</body>
 </html>
+
