@@ -1,3 +1,0 @@
-# Personal site
-
-More info coming soon...
