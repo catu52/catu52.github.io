@@ -3,65 +3,175 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name's MacProfile</title>
+    <title>Carlos Samaniego's MacProfile</title>
     <link rel="stylesheet" href="https://unpkg.com/@sakun/system.css" />
     <style>
         /* Optional: Add custom CSS for background, etc. */
         body {
             background-color: #C0C0C0; /* Classic light gray desktop color */
-            padding: 20px;
+            margin:0;
+        }
+        #toolbar {
+            background-color: white; /* Classic blue toolbar color */
+            padding-left: .5rem;
+            border-width: .1rem 0;
+            border-bottom: .1rem solid #000;
+            position: sticky;
+            top: 0;
         }
     </style>
 </head>
   <body>
-    <div style="margin-left:auto;margin-right:auto;max-width:960px">
-      <div class="window" style="max-width:600px;margin:1rem auto">
-        <div class="title-bar">
-          <div class="title-bar-controls">
-            <button aria-label="Close"></button>
-          </div>
-          <h1 class="title">About Me.txt</h1>
-        </div>
-        <div class="window-pane">
-          <img src="computer.jpg" alt="Avatar" style="width:150px;height:150px;float:right">
-          <h1>Hello, I'm **[Your Name]**</h1>
-          <p>I am a software developer interested in [Your Specialty].</p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ullamcorper gravida lacus, eget pulvinar justo efficitur aliquet. Fusce vitae convallis neque. Nullam feugiat nunc quis augue laoreet sagittis.
-          </p>
-          <button class="btn btn-default">My GitHub</button>
-        </div>
-      </div>
-
-      <div class="window" style="max-width:600px;margin:1rem auto">
-        <div class="title-bar">
-          <h1 class="title">Skills</h1>
-        </div>
-        <div class="window-pane">
-          <ul>
-            <li>Programming Languages: JavaScript, Python, C++</li>
-            <li>Frameworks: React, Node.js, Django</li>
-            <li>Tools: Git, Docker, AWS</li>
+    <div id="toolbar">
+      <ul role="menu-bar">
+        <span class="apple"></span>
+        <li role="menu-item" tabindex="0" aria-haspopup="true">
+          View
+          <ul role="menu">
+            <li role="menu-item"><a href="#skills">Skills</a></li>
+            <li role="menu-item"><a href="#xp">Experience</a></li>
+            <li role="menu-item"><a href="#education">Education</a></li>
           </ul>
-        </div>
-      </div>
-
-      <div class="window" style="max-width:600px;margin:1rem auto">
-        <div class="title-bar">
-          <h1 class="title">Experience</h1>
-        </div>
-        <div class="window-pane">
-          <ul>
-            <li>Software Engineer at Company A (2020 - Present)</li>
-            <li>Intern at Company B (2019 - 2020)</li>
-         </ul>
-        </div>
-      </div>
-
-      <div class="standard-dialog center scale-down" style="max-width:500px;margin:1rem auto">
-       <h1 class="dialog-text">The Macintosh Finder, Version 1.0 (18 Jan 84)</h1>
-        <p class="dialog-text">&copy; 1984 Apple Computer</p>
-      </div>
+        </li>
+        <li role="menu-item" tabindex="0" aria-haspopup="true">
+          Contact
+          <ul role="menu">
+            <li role="menu-item"><a href="https://github.com/catu52" target="_blank" rel="noopener noreferrer">Github</a></li>
+            <li role="menu-item"><a href="mailto:catu52@gmail.com">Mail</a></li>
+            <li role="menu-item"><a href="https://www.linkedin.com/in/carlos-samaniego-5267a843/" target="_blank">LinkedIn</a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
+    <div style="margin-left:auto;margin-right:auto;max-width:960px">
+        <div class="window" style="max-width:800px;margin:1rem auto">
+          <div class="title-bar">
+            <div class="title-bar-controls">
+              <button aria-label="Close"></button>
+            </div>
+            <h1 class="title">About Me.txt</h1>
+          </div>
+          <div class="window-pane">
+            <img src="computer.jpg" alt="Avatar" style="width:150px;height:150px;float:right">
+            <h1>Hello, I'm Carlos</h1>
+            <p>I am a Backend Software Developer.</p>
+            <p>
+              Born in Caracas, Venezuela. From a young age showed interest in science and technology.
+              Obtained diploma from Universidad Bolivariana de Venezuela. Job focuses primarily on Web
+              development.
+            </p>
+            <a href="https://github.com/catu52" target="_blank" rel="noopener noreferrer">
+              <button class="btn btn-default">My GitHub</button>
+            </a>
+            <a href="mailto:catu52@gmail.com">
+              <button class="btn">Send mail</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="window" style="max-width:800px;margin:1rem auto" id="skills">
+          <div class="title-bar">
+            <h1 class="title">Skills</h1>
+          </div>
+          <div class="window-pane">
+            <ul>
+              <li>Programming Languages: PHP, JavaScript, Python</li>
+              <li>Frameworks: Laravel, React, Django</li>
+              <li>Tools: Git, Docker, AWS</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="window" style="max-width:800px;margin:1rem auto" id="xp">
+          <div class="title-bar">
+            <h1 class="title">Experience</h1>
+          </div>
+          <div class="window-pane" sytle="overflow-y:scroll">
+            <h4>OCTUBRE 2020 - PRESENTE</h4>
+            <div class="details-bar">
+              <span>Hogarth Argentina, Buenos Aires- Backend Developer</span>
+            </div>
+            <ul>
+              <li>«La Nacion». PHP , Laravel, MySQL, Vue JS, Git, AWS.</li>
+              <li>«Ohlalá!». PHP , Drupal, MySQL, React JS, Git, AWS.</li>
+              <li>«Nestlé Chile». PHP , Vue JS, Subversion.</li>
+            </ul>
+            <h4>ABRIL 2018 - AGOSTO 2020</h4>
+            <div class="details-bar">
+              <span>DDB/Tribal, Buenos Aires- Backend Developer</span>
+            </div>
+            <ul>
+              <li>Desarrollo de Back-End y API, mantenimiento y despliegue de sitios Web y servicios.</li>
+              <li>«McDonald’s LATAM». PHP, Symfony, MySQL, jQuery.</li>
+            </ul>
+            <h4>AGOSTO 2017 - ENERO 2018</h4>
+            <div class="details-bar">
+              <span>Creative Coefficient, Buenos Aires- Desarrollador</span>
+            </div>
+            <ul>
+              <li>« Timesheet», sistema para el seguimiento de horas de desarrollo de proyectos (Time logging and management for projects). PHP , MySQL.</li>
+              <li>«Skwibb», plataforma móvil para artistas musicales a través de una aplicación para iOS (Mobile platform for musical artists for iOS). Node JS, Mongol DB, Git.</li>
+            </ul>
+            <h4>FEBRERO 2016 - FEBRERO 2020</h4>
+            <div class="details-bar">
+              <span>Cusica, Caracas- Development Lead</span>
+              </div>
+            <ul>
+              <li>Cusica Plus. PHP , MySQL, Wordpress.</li>
+              <li>Cusica Live. PHP , MySQL, Laravel, Git.</li>
+              <li>Cusica. Angular JS, MySQL, Git.</li>
+            </ul>
+            <h4>OCTUBRE 2012 - ENERO 2017</h4>
+            <div class="details-bar">
+              <span>Ministerio del Poder Popular para el Proceso Social de Trabajo, Caracas - Desarrollador</span>
+            </div>
+            <ul>
+              <li>Sistema para el Registro de Materiales y Servicios. PHP , PostgreSQL, jQuery, Yii 2.</li>
+            </ul>
+            <h4>NOVIEMBRE 2011 - OCTUBRE 2014</h4>
+            <div class="details-bar">
+              <span>Redes Mix, Caracas- Developer</span>
+            </div>
+            <ul>
+              <li>Infotrack, sistema para estadísticas de ventas. PHP , Yii 1.1, MySQL, jQuery.</li>
+            </ul>
+            <h4>ABRIL 2010- JULIO 2010</h4>
+            <div class="details-bar">
+              <span>Registro Civil, Caracas- Consultant</span>
+            </div>
+            <ul>
+              <li>Automatización y digitalización de registros. PHP , PostgreSQL.</li>
+            </ul>
+            <h4>ABRIL 2009 - DICIEMBRE 2009</h4>
+            <div class="details-bar">
+              <span>Instituto Nacional de Servicios Sociales, Caracas- Developer</span>
+            </div>
+            <ul>
+              <li>Servicios integrales nacionales para el adulto mayor. PHP , PostgreSQL, jQuery.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="window" style="max-width:800px;margin:1rem auto" id="education">
+          <div class="title-bar">
+            <h1 class="title">Education</h1>
+          </div>
+          <div class="window-pane">
+            <h4>2005 - 2008</h4>
+            <div class="details-bar">
+              <span>Universidad Bolivariana de Venezuela, Caracas - Técnico Superior Universitario en Informática</span>
+            </div>
+            <h4>2008 - 2009</h4>
+            <div class="details-bar">
+              <span>Universidad Bolivariana de Venezuela, Caracas - Licenciatura en Informática</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="standard-dialog center scale-down" style="max-width:500px;margin:1rem auto">
+        <h1 class="dialog-text">Carlos Samaniego</h1>
+          <p class="dialog-text">&copy; Since 1984</p>
+        </div>
+      </div>
   </body>
 </html>
